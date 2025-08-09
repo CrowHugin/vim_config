@@ -1,0 +1,12 @@
+call plug#begin('~/.vim/plugged')
+
+"Fugitive vim git wrapper
+Plug 'tpope/vim-fugitive'
+"NerdTree
+Plug 'scrooloose/nerdtree'
+"Autocompletion
+Plug 'valloric/youcompleteme'
+"Tagbar
+Plug 'majutsushi/tagbar'
+
+call plug#end()
