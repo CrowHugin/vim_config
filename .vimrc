@@ -1,8 +1,9 @@
 "setting the line numbers
 set number
-filetype off "do not detect the file type I'm working with 
+filetype on "do not detect the file type I'm working with 
 set nocompatible 
-
+"set colors
+set termguicolors
 
 set tabstop=2 
 set shiftwidth=2
@@ -29,6 +30,14 @@ if filereadable(expand("~/.vimrc.plug"))
   source ~/.vimrc.plug
 endif
 
+"Toggle the tagbar
 nmap <F8> :TagbarToggle<CR>
+"Toggle the tree
 nnoremap <F7> :NERDTreeToggle<CR>
+"enable switching windows with tab's key
 nmap <Tab> <C-w>w
+"disable arrows
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
