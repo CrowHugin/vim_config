@@ -41,3 +41,22 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+
+inoremap <Up> <Nop>
+inoremap <Down> <Nop>
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+
+vnoremap <Up> <Nop>
+vnoremap <Down> <Nop>
+vnoremap <Left> <Nop>
+vnoremap <Right> <Nop>
+
+"bind esc key on jj on insert mode
+inoremap jj <esc>
+"bind esc key on jj on visual mode
+vnoremap jj <esc>
+"disable escape
+noremap <esc> <Nop>
+inoremap <esc> <Nop>
+vnoremap <esc> <Nop>
