@@ -15,6 +15,8 @@ colorscheme desert
 set wildmenu
 set colorcolumn=80
 
+"set split below and right
+set splitbelow splitright
 syntax on
 
 "Setting semantic highlight
@@ -60,3 +62,4 @@ vnoremap jj <esc>
 noremap <esc> <Nop>
 inoremap <esc> <Nop>
 vnoremap <esc> <Nop>
+
