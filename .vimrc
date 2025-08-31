@@ -63,3 +63,5 @@ noremap <esc> <Nop>
 inoremap <esc> <Nop>
 vnoremap <esc> <Nop>
 
+"Toggle float terminal windows
+nnoremap <F9> :FloatermNew --position=topright --title=console --width=0.6 --height=0.8<CR>

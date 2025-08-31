@@ -8,5 +8,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'valloric/youcompleteme'
 "Tagbar
 Plug 'majutsushi/tagbar'
-
+"embark theme
+Plug 'embark-theme/vim', { 'as': 'embark' }
+"GDB debugger
+Plug 'voldikss/vim-floaterm'
 call plug#end()
