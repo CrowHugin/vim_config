@@ -26,6 +26,9 @@ let g:ycm_enable_inlay_hints=1
 "Mapping toggling text
 nnoremap <silent> <localleader>h <Plug>(YCMToggleInlayHints)
 
+packadd termdebug
+"Toggle the gbd debugger
+nmap <F6> :Termdebug<CR>
 
 "callng the .vimrc.plug file
 if filereadable(expand("~/.vimrc.plug"))
