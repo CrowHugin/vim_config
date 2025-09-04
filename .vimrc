@@ -10,7 +10,8 @@ set shiftwidth=2
 set expandtab "convert tabs to spaces
 
 set hlsearch
-colorscheme desert
+"colorscheme :desert
+colorscheme catppuccin_mocha 
 
 set wildmenu
 set colorcolumn=80

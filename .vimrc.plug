@@ -10,6 +10,8 @@ Plug 'valloric/youcompleteme'
 Plug 'majutsushi/tagbar'
 "embark theme
 Plug 'embark-theme/vim', { 'as': 'embark' }
-"GDB debugger
+"folating terminal
 Plug 'voldikss/vim-floaterm'
+"colorscheme catpuccin
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 call plug#end()
