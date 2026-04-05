@@ -20,7 +20,7 @@ cp ~/vim-config/.vimrc ~/vim-config/.vimrc.plug ~
 ```
 
 Go inside ~/.vimrc.plug and do:
-	:PlugInstall
+   `:PlugInstall`
 
 **For Catppuccin:**
 ```
